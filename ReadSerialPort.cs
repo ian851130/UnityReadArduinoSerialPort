@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 public class ReadSerialPort : MonoBehaviour {
     
-    public SerialPort sp = new SerialPort("COM6", 57600);
+    public SerialPort sp = new SerialPort("COM5", 57600);
     string ReadFromSerialPort;
     Thread myThread;
     bool GetData = false;
